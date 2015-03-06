@@ -1,0 +1,28 @@
+{
+  "name": "tallieCarousel",
+  "version": "1.0.0",
+  "description": "Carousel widget made using React.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sputh/tallieCarousel.git"
+  },
+  "keywords": [
+    "carousel",
+    "react",
+    "js",
+    "widget"
+  ],
+  "author": "Samantha Puth (github.com/sputh)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sputh/tallieCarousel/issues"
+  },
+  "homepage": "https://github.com/sputh/tallieCarousel",
+  "dependencies": {
+    "react": "^0.12.2"
+  }
+}
