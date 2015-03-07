@@ -5,17 +5,15 @@
 		<title>Carousel Widget</title>
 		<script type="text/javascript" src="node_modules/react/dist/react.js"></script>
 		<script type="text/javascript" src="node_modules/react/dist/JSXTransformer.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="widget/styles/style.css">
 	</head>
 	<body>
-		<script src="build/main.js"></script>
 		<script src="input.js"></script>
+		<script src="build/main.js"></script>
 		<script type="text/javascript">
-			console.log(data)
-			React.render(React.createElement(Carousel, 
-				{images: data,
-				 data: 'what?!'	
-			}), document.body)
+			var imagesArray = data.Images;
+			React.render(React.createElement(Carousel, {images: imagesArray}), document.body)
 		</script>
 	</body>
 </html>
