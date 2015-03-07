@@ -1,8 +1,4 @@
 /** @jsx React.DOM */
-var test = {
-	'Title': 'Drag & Drop a Receipt',
-	'Url': 'http://support.usetallie.com/customer/portal/attachments/363862'
-}
 /***********************************/
 // Header contains title and start //
 /***********************************/
