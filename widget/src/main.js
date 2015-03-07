@@ -7,7 +7,7 @@ var Header = new React.createClass({
 		return React.createElement('div', {className: 'carousel-header'}, 
 			// this.props.title,
 		 React.createElement('span', {className: 'carousel-title'}, this.props.title),
-		 React.createElement('span', {className: 'carousel-start'}, 'Start Slideshow')
+		 React.createElement('span', {className: 'carousel-start', onClick: this.props.startSlideshow}, 'Start Slideshow')
 		)
 	}
 })
