@@ -16,7 +16,7 @@
     "js",
     "widget"
   ],
-  "author": "Samantha Puth (github.com/sputh)",
+  "author": "Samantha Puth <github.com/sputh>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/sputh/tallieCarousel/issues"
